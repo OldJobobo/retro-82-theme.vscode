@@ -2,7 +2,7 @@
   "name": "retro-82-theme",
   "displayName": "Retro '82 Theme",
   "description": "Retro-82 color theme for VS Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "oldjobobo",
   "license": "MIT",
   "repository": {
@@ -11,6 +11,15 @@
   },
   "engines": {
     "vscode": "^1.80.0"
+  },
+  "scripts": {
+    "package": "npx @vscode/vsce package",
+    "version:patch": "npm version patch",
+    "version:minor": "npm version minor",
+    "version:major": "npm version major",
+    "release:patch": "npm version patch && npx @vscode/vsce package",
+    "release:minor": "npm version minor && npx @vscode/vsce package",
+    "release:major": "npm version major && npx @vscode/vsce package"
   },
   "categories": [
     "Themes"
