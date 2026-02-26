@@ -12,7 +12,6 @@ This guide is for publishing updates to the VS Code extension:
 ## One-Time Login
 
 ```bash
-cd /home/oldjobobo/Projects/themes/omarchy-retro-82-theme/vscode-extension
 npm i -g @vscode/vsce
 vsce login oldjobobo
 ```
@@ -27,8 +26,7 @@ vsce login oldjobobo
 ### 1) Package
 
 ```bash
-cd /home/oldjobobo/Projects/themes/omarchy-retro-82-theme/vscode-extension
-vsce package
+npm run package
 ```
 
 ### 2) Verify VSIX Contents
@@ -68,8 +66,24 @@ vsce publish 0.0.2
 
 ## Notes
 
-- Run all `vsce` commands from `vscode-extension/` (not repo root).
+- Run all `vsce` commands from the repository root.
 - Keep extension ID stable: `oldjobobo.retro-82-theme`.
 - `vscode.json` in the theme root should continue to reference:
   - `"name": "Retro '82"`
   - `"extension": "oldjobobo.retro-82-theme"`
+
+## Versioning Workflow (Recommended)
+
+Use npm scripts to keep SemVer + Git tags consistent:
+
+```bash
+npm run version:patch   # or version:minor / version:major
+```
+
+For one command that versions and builds:
+
+```bash
+npm run release:patch   # or release:minor / release:major
+```
+
+After bumping, update `CHANGELOG.md`, then publish with `vsce publish <version|patch|minor|major>`.
