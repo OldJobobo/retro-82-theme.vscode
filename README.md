@@ -1,14 +1,19 @@
 # Retro-82 VS Code Theme Extension
 
-Local VS Code extension wrapper for `Retro-82`.
-This extension is not published on the VS Code Marketplace.
+VS Code theme extension for `Retro '82`.
 
 ## Install
 
-Install the bundled `.vsix` directly:
+Install from the VS Code Marketplace:
 
 ```bash
-code --install-extension ./retro-82-theme-0.0.1.vsix
+code --install-extension oldjobobo.retro-82-theme
+```
+
+Or install a local `.vsix` directly:
+
+```bash
+code --install-extension ./retro-82-theme-*.vsix
 ```
 
 ## Rebuild VSIX (maintainers)

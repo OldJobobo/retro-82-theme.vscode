@@ -68,9 +68,9 @@ vsce publish 0.0.2
 
 - Run all `vsce` commands from the repository root.
 - Keep extension ID stable: `oldjobobo.retro-82-theme`.
-- `vscode.json` in the theme root should continue to reference:
-  - `"name": "Retro '82"`
-  - `"extension": "oldjobobo.retro-82-theme"`
+- Keep `package.json` theme contribution aligned with:
+  - `"label": "Retro '82"`
+  - `"path": "./themes/base16-retro-82-color-theme.json"`
 
 ## Versioning Workflow (Recommended)
 

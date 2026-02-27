@@ -12,7 +12,8 @@ Keep changes focused: color edits belong in `themes/`, extension metadata change
 ## Build, Test, and Development Commands
 - `npx @vscode/vsce package`: build a local `.vsix` from the current sources.
 - `unzip -l retro-82-theme-*.vsix`: inspect package contents before publishing.
-- `code --install-extension ./retro-82-theme-0.0.1.vsix`: install locally for manual verification.
+- `code --install-extension oldjobobo.retro-82-theme`: install from Marketplace for verification.
+- `code --install-extension ./retro-82-theme-*.vsix`: install a local package for manual verification.
 - `npx @vscode/vsce publish patch` (or `minor` / `major`): publish a version bump.
 
 Run commands from the repository root unless a release note says otherwise.
