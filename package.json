@@ -19,7 +19,13 @@
     "version:major": "npm version major",
     "release:patch": "npm version patch && npx @vscode/vsce package",
     "release:minor": "npm version minor && npx @vscode/vsce package",
-    "release:major": "npm version major && npx @vscode/vsce package"
+    "release:major": "npm version major && npx @vscode/vsce package",
+    "publish:smart": "bash ./scripts/publish-smart.sh",
+    "publish:smart:minor": "bash ./scripts/publish-smart.sh minor",
+    "publish:smart:major": "bash ./scripts/publish-smart.sh major",
+    "pub": "bash ./scripts/publish-smart.sh",
+    "pubm": "bash ./scripts/publish-smart.sh minor",
+    "pubM": "bash ./scripts/publish-smart.sh major"
   },
   "categories": [
     "Themes"
