@@ -9,6 +9,7 @@
   "files": [
     "themes/**",
     "icon.png",
+    "preview.png",
     "README.md",
     "CHANGELOG.md",
     "LICENSE"
