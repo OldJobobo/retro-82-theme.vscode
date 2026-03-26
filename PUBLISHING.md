@@ -29,6 +29,8 @@ vsce login oldjobobo
 npm run package
 ```
 
+For this theme-only extension, the package script uses `vsce package --no-dependencies` so `vsce` includes the extension root correctly.
+
 ### 2) Verify VSIX Contents
 
 ```bash
