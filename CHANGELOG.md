@@ -6,6 +6,11 @@ The format is based on Keep a Changelog, and this project adheres to Semantic Ve
 
 ## [Unreleased]
 
+## [0.1.4] - 2026-03-26
+
+### Fixed
+- Switched foreground text on orange UI surfaces to the theme's dark base color for better contrast and readability.
+
 ## [0.1.1] - 2026-03-26
 
 ### Fixed
