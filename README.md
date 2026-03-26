@@ -1,6 +1,10 @@
-# Retro-82 VS Code Theme Extension
+# Retro '82 Theme
 
-VS Code theme extension for `Retro '82`.
+Retro '82 for VS Code.
+
+Built from the Retro '82 palette and tuned for stronger syntax and semantic highlighting across the languages most people actually use.
+
+![Retro '82 Theme Preview](./preview.png)
 
 ## Install
 
@@ -10,27 +14,19 @@ Install from the VS Code Marketplace:
 code --install-extension oldjobobo.retro-82-theme
 ```
 
-Or install a local `.vsix` directly:
+## Included
 
-```bash
-code --install-extension ./retro-82-theme-*.vsix
-```
+- Dark Retro '82 UI theme
+- Semantic highlighting support
+- Expanded syntax highlighting coverage for Rust, JavaScript, TypeScript, Python, Shell, Markdown, CSS, JSON, TOML, YAML, HTML, Lua, and diff views
 
-## Rebuild VSIX (maintainers)
+## Highlighting Coverage
 
-Requires `@vscode/vsce`.
+- `391` TextMate scopes themed
+- `52` semantic token selectors themed
+- Semantic highlighting enabled by the theme
 
-```bash
-npm run package
-```
+## Notes
 
-## Versioning
-
-This project uses Semantic Versioning (`MAJOR.MINOR.PATCH`).
-
-- `npm run version:patch`: backward-compatible fixes (`0.0.1` -> `0.0.2`)
-- `npm run version:minor`: backward-compatible features (`0.0.1` -> `0.1.0`)
-- `npm run version:major`: breaking changes (`0.0.1` -> `1.0.0`)
-
-Each command updates `package.json`, creates a Git commit, and creates a Git tag.
-Use `npm run release:patch|minor|major` to version and build the VSIX in one step.
+- Semantic highlighting is enabled by the theme.
+- The theme is intended to keep the Retro '82 feel while improving symbol separation and readability in real projects.
