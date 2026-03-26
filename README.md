@@ -4,7 +4,7 @@ Retro '82 for VS Code.
 
 Built from the Retro '82 palette and tuned for stronger syntax and semantic highlighting across the languages most people actually use.
 
-![Retro '82 Theme Preview](./preview.png)
+![Retro '82 Theme Preview](https://raw.githubusercontent.com/OldJobobo/retro-82-theme.vscode/master/preview.png)
 
 ## Install
 

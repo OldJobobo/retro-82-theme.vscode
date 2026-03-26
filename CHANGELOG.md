@@ -6,6 +6,20 @@ The format is based on Keep a Changelog, and this project adheres to Semantic Ve
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-03-26
+
+### Fixed
+- Updated the Marketplace extension icon.
+
+## [0.1.0] - 2026-03-02
+
+### Added
+- Marketplace icon packaging in the extension bundle.
+- Expanded syntax highlighting coverage across more scopes.
+
+### Fixed
+- VSIX packaging so Marketplace assets and extension files ship correctly.
+
 ## [0.0.2] - 2026-02-27
 
 ### Added

@@ -2,7 +2,7 @@
   "name": "retro-82-theme",
   "displayName": "Retro '82 Theme",
   "description": "Retro-82 color theme for VS Code",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "oldjobobo",
   "license": "MIT",
   "icon": "icon.png",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/OldJobobo/omarchy-retro-82-theme.git"
+    "url": "https://github.com/OldJobobo/retro-82-theme.vscode.git"
   },
   "engines": {
     "vscode": "^1.80.0"
